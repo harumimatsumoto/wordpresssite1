@@ -3,8 +3,7 @@
  * @package Oria
  */
 ?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class();/*ここのクラスをうまく設定すれば見た目よくなるはず*/ ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <div class="item-sizer">
 	<?php if ( has_post_thumbnail() && ( get_theme_mod( 'index_feat_image' ) != 1 ) ) : ?>
 		<div class="entry-thumb">
@@ -13,11 +12,11 @@
 	<?php endif; ?>
 
 	<header class="entry-header blog-entry-header">
-		<?php if ( 'page' == get_post_type() && get_theme_mod('hide_meta_index') != 1 ) : ?>		
+		<?php /*if('post' == get_post_type())*//*if ( 'post' == get_post_type() && get_theme_mod('hide_meta_index') != 1 ) : */?>		
 		<div class="entry-data">
-			<?php oria_index_data(); ?>
+			<?php var_exports(get_posts(array('post_type' => 'page')));/*oria_index_data();*/ ?>
 		</div>
-		<?php endif; ?>	
+		<?php /*endif;*/ ?>	
 		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 	</header><!-- .entry-header -->
 

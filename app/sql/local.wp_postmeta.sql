@@ -1,0 +1,31 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+INSERT INTO `wp_postmeta` VALUES
+(1,2,"_wp_page_template","default"),
+(2,4,"_edit_last","1"),
+(3,4,"_edit_lock","1521553381:1"),
+(4,4,"_wp_page_template","default"),
+(5,6,"_edit_last","1"),
+(6,6,"_edit_lock","1521553219:1"),
+(7,6,"_wp_page_template","default"),
+(8,8,"_edit_last","1"),
+(9,8,"_edit_lock","1521460859:1"),
+(10,8,"_wp_page_template","default"),
+(11,10,"_edit_last","1"),
+(12,10,"_edit_lock","1521553205:1"),
+(13,10,"_wp_page_template","default"),
+(14,12,"_edit_last","1"),
+(15,12,"_edit_lock","1521460910:1"),
+(18,14,"_edit_last","1"),
+(19,14,"_edit_lock","1521460930:1"),
+(22,16,"_edit_last","1"),
+(23,16,"_edit_lock","1521460941:1"),
+(26,18,"_edit_last","1"),
+(27,18,"_edit_lock","1521460952:1"),
+(30,20,"_edit_last","1"),
+(31,20,"_edit_lock","1521460966:1"),
+(34,22,"_edit_last","1"),
+(35,22,"_edit_lock","1521460981:1"),
+(38,24,"_edit_last","1"),
+(39,24,"_edit_lock","1521460993:1");
